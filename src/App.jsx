@@ -6,11 +6,11 @@ import { Outlet } from "react-router-dom";
 import Allcourses from "./pages/allcourse/Allcourses";
 import Register from "./pages/Register";
 import Footer from "./components/Footer";
-import VerifyCertificate from "./pages/VerifyCertificate";
 import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/Contact";
 import RefundPolicy from "./components/RefundPolicy";
 import Blogs from "./components/Blogs";
+import Jobplacement from "./pages/Jobplacement";
 
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/allcourses" element={<Allcourses/>} />
         <Route path="/register" element={<Register/>} />
-        <Route path="/verifyCertificate" element={<VerifyCertificate/>} />
+        <Route path="/jobplacement" element={<Jobplacement/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/contact" element={< Contact/>} />
         <Route path="/blog" element={< Blogs/>} />

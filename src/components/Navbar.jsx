@@ -25,7 +25,7 @@ const Navbar = () => {
           {[
             { name: "Home", path: "/" },
             { name: "All Courses", path: "/allcourses" },
-            { name: "Verify Certificate", path: "/verifyCertificate" },
+            { name: "Job Placement", path: "/jobplacement" },
             { name: "About US", path: "/aboutus" },
             { name: "Contact", path: "/contact" },
           ].map((link) => (
@@ -62,7 +62,7 @@ const Navbar = () => {
             {[
               { name: "Home", path: "/" },
               { name: "All Courses", path: "/allcourses" },
-              { name: "Verify Certificate", path: "/verifyCertificate" },
+              { name: "Job Placement", path: "/jobplacement" },
               { name: "About Us", path: "/aboutus" },
               { name: "Contact", path: "/contact" },
             ].map((link) => (
